@@ -59,7 +59,7 @@ function OrderCart() {
     <div className={styles.ordercartcotentcontainer}>
         {
             productdata.map(it=>{
-                return <Cart Productname={it.Productname} />
+                return <Cart Productname={it.Productname} price={it.Productprice} oprice={it.Productofferprice} desc={it.Productdescription} pic={it.Productpic} />
             })
         }
     

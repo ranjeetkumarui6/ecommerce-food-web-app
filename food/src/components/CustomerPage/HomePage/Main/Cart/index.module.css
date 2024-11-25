@@ -1,9 +1,13 @@
+.cartcontainer:hover{
+    box-shadow: 0 0 15px 0 black;
+}
 .cartcontainer{
     padding: 10px;
     border-radius: 5px;
     border: 2px solid #33cf71;
-    box-shadow: 0 0 15px 0 black;
     margin: 20px 0;
+    box-shadow: 0 0 7px 0 black;
+
 
     & .imgcontainer{
         width: 100%;
