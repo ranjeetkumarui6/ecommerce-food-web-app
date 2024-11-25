@@ -1,0 +1,12 @@
+
+.ProductContainer{
+    width: 100%;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+
+}
+.Productbody{
+    display: flex;
+    padding-top: 20px;
+
+    width: 100%;
+}

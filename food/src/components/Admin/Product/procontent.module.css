@@ -1,0 +1,490 @@
+.ProductContent{
+    padding:4rem 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.Productform1{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border: none !important;
+    column-gap: 20px;
+    padding: 0;
+    & .category{
+        width: 50%;
+
+        & select{
+            width: 100%;
+            border-radius: 10px;
+        }
+    }
+}
+.tableform{
+    display: flex !important;
+    align-items: center;
+    column-gap: 20px;
+    margin-top: 1rem;
+}
+.ProductFormContainer{
+   width: 35%;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    padding:1rem 1.5rem;
+    box-shadow: 0px 0px 26px -10px  black;
+}
+.ProductTittle{
+    width: 100%;
+    font-size: x-large;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: #11638C;
+
+}
+.ProducttableTittle{
+    width: 100%;
+    font-size: x-large;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    color: black;
+}
+.ProductTableContainer{
+   width: 70%;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px solid black;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 26px -10px  black;
+}
+.Productform{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    margin-top: 2rem;
+}
+.ProductTable{
+    width: 100%;
+    height: 420px;
+    margin-top: 1rem;
+overflow-y: scroll;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.Productlabel{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: x-large;
+}
+.ProductInput{
+    display: inline-block;
+    height: 1rem;
+    width: 100%;
+    padding: 1rem;
+    color: #11638C;
+    font-size: large;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+}
+.ProductInput:focus{
+    outline: none;
+}
+.ProductSelect:focus{
+    outline: none;
+}
+.option{
+    color:#11638C;
+    background-color: lightblue;
+}
+.option1{
+    color:gray;
+    background-color: lightblue;
+}
+
+.ProductSelect{
+    display: inline-block;
+    width: 350px;
+    padding: 0.4rem;
+    color: #11638C;
+    font-size: large;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 0.5rem;
+
+}
+
+input[type="file"]{
+    display: none;
+}
+.ProductFile{
+    display: inline-block;
+    width: 100%;
+    font-family: sans-serif;
+    padding: 0.3rem 0.2rem 0.3rem 1rem;
+    font-size: 1.16rem;
+    font-weight: 500;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color:#11638C;
+
+}
+input[type="text"]::placeholder{
+    color: #11638C;
+}
+.Productbuttons{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table,.thead,th,td{
+    border: 2px solid  #11638C;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: large;
+}
+.table,.td,.th{
+    border-collapse: collapse;
+}
+.icondiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.table{
+width: 100%;
+}
+.ProductTable{
+    font-size: large;
+    text-align: center;
+}
+.rowspan{
+    padding-bottom: 1rem ;
+}
+@media screen and (min-width:890px) and (max-width:1310px) {
+.ProductTableContainer{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    padding: 0.5rem;
+
+}
+.ProductFormContainer{
+    width: 95%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+
+}
+.ProductInput{
+    width: 500px;
+    margin-bottom: 0.5rem;
+}
+.ProductSelect{
+    width: 500px;
+    margin-bottom: 0.5rem;
+}
+.ProductFile{
+    width: 500px;
+}
+.ProducttableTittle{
+    font-size: x-large;
+    padding: 0.2rem;
+}
+.ProductTittle{
+    font-size: x-large;
+    padding: 0.1rem;
+}    
+.ProductTable{
+    margin-top: 0.2rem;
+    height: 300px;
+}
+.Productform{
+    padding-top: 0.5rem;
+    margin-top: 0.2rem;
+    
+}
+.rowspan{
+    padding-bottom: 0.2rem ;
+}
+.ProductFile{
+    margin-bottom: 0.7rem;
+}
+.Productlabel{
+    font-size: large;
+    margin-bottom: 0.2rem;
+}
+.Productbuttons{
+    width: 45%;
+}
+.ProductContent{
+    width: 100%;
+    padding: 1rem;
+}
+}
+
+@media screen and (min-width:590px) and (max-width:890px) {
+.ProductContent{
+    width: 100%;
+
+    padding: 1rem;
+    padding-top: 5rem;
+}
+.table,.thead,th,td{
+    font-size: medium;
+}
+.table{
+    width: 100%;
+}
+    .ProductTableContainer{
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding:2rem 0.5rem;
+    
+    }
+    .ProductFormContainer{
+        width: 42%;
+        margin-bottom: 2rem;
+        height: fit-content;
+        padding:2rem 0.5rem;
+        margin: 0 auto;
+    
+    }
+    .ProductInput{
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 1rem 0.5rem;
+        font-size: medium;
+    }
+    .ProductSelect{
+        width: 100%;
+        margin-bottom: 0.5rem;
+        font-size: medium;
+    }
+    .ProductFile{
+        width: 100%;
+        font-size: medium;
+        padding: 0.5rem 0.5rem;
+
+    }
+    .ProducttableTittle{
+        font-size: x-large;
+        padding: 0.5rem;
+    }
+    .ProductTittle{
+        font-size: x-large;
+        padding: 0.5rem;
+    }    
+    .ProductTable{
+        margin-top: 1rem;
+        padding: 1rem 0rem;
+        height: 315px;
+
+    }
+    .Productform{
+    padding: 1.5rem 0.8rem 0.8rem 0.8rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .rowspan{
+        padding-bottom: 0.2rem ;
+    }
+    .ProductFile{
+        margin-bottom: 0.7rem;
+    }
+    .Productlabel{
+        font-size: medium;
+        margin-bottom: 0.2rem;
+    }
+    .Productbuttons{
+        width: 100%;
+    }
+    }
+    @media screen and (min-width:285px) and (max-width:590px) {
+
+        .ProductContent{
+            margin-top: auto;
+        }
+        .ProductTableContainer{
+            width: 95%;
+            margin: 0.1rem auto;
+            margin-top: 0.8rem;
+            padding: 0.9rem;
+        
+        }
+        .ProductFormContainer{
+            width: 95%;
+            margin-bottom: 1rem;
+            padding: 0.8rem;
+            margin-top: 40vh;
+            margin: 0 auto;
+        
+        }
+        .table,.thead,th,td{
+            font-size: small;
+        }
+        .table{
+            width: 100%;
+        }
+        .ProductInput{
+            width: 100%;
+            margin-bottom: 0.2rem;
+            padding: 0.7rem 0.5rem;
+            font-size: small;
+
+        }
+        .ProductSelect{
+            width: 100%;
+            padding: 0.2rem;
+            margin-bottom: 0.3rem;
+            font-size: small;
+        }
+        .ProductFile{
+            width: 100%;
+            font-size: small;
+        }
+        .ProducttableTittle{
+            font-size: medium;
+            padding: 0.1rem;
+        }
+        .ProductTittle{
+            font-size: medium;
+            padding: 0.1rem;
+        }    
+        .ProductTable{
+            margin-top: 0.5rem;
+            height: 230px;
+        }
+        .Productform{
+            padding-top: 0.5rem;
+            margin-top: 0.5rem;
+            padding-bottom: 0.2rem;
+        }
+        .rowspan{
+            padding-bottom: 0.1rem ;
+        }
+        .ProductFile{
+            margin-bottom: 0.7rem;
+        }
+        .Productlabel{
+            font-size: medium;
+            margin-bottom: 0.2rem;
+        }
+        .Productbuttons{
+            width: 80%;
+            font-size: small;
+        }
+        .ProductContent{
+            width: 100%;
+        }
+        }
+        @media screen and (min-width:0px) and (max-width:284px) {
+
+            .ProductContent{
+                margin-top: auto;
+                height: 100%;
+            }
+            .ProductTableContainer{
+                width: 100%;
+                margin: 2rem auto;
+                margin-top: 0.4rem;
+                padding: 0.4rem;
+                height: 260px;
+            }
+            .ProductFormContainer{
+                width: 100%;
+                margin-bottom: 0.5rem;
+                padding: 0.5rem;
+                margin: 0 auto;
+            
+            }
+            .table,.thead,th,td{
+                font-size: x-small;
+            }
+            .table{
+                width: 100%;
+            }
+            .ProductInput{
+                width: 100%;
+                margin-bottom: 0.3rem;
+                padding: 0.3rem 0.2rem;
+                font-size: xx-small;
+    
+            }
+            .ProductSelect{
+                width: 100%;
+                padding: 0.2rem;
+                margin-bottom: 0.3rem;
+                font-size: xx-small;
+            }
+            .ProductFile{
+                padding: 0.2rem;
+                width: 100%;
+                font-size: xx-small;
+            }
+            .ProducttableTittle{
+                font-size: small;
+                padding: 0.1rem;
+            }
+            .ProductTittle{
+                font-size: small;
+                padding: 0.1rem;
+            }    
+            .ProductTable{
+                margin-top: 0.5rem;
+                margin-bottom: 0.5rem;
+                height: 200px;
+
+            }
+            .Productform{
+                padding-top: 0.3rem;
+                margin-top: 0.5rem;
+                padding-bottom: 0.2rem;
+            }
+            .rowspan{
+                padding-bottom: 0.1rem ;
+            }
+            .ProductFile{
+                margin-bottom: 0.7rem;
+            }
+            .Productlabel{
+                font-size: small;
+                margin-bottom: 0.2rem;
+            }
+            .Productbuttons{
+                width: 100%;
+                font-size: small;
+            }
+            .ProductContent{
+                width: 100%;
+            }
+            }
+            
+@media screen and (min-width:0px) and (max-width:600px) {
+    .ProductContent{
+        margin-top: 7.8vh;
+    }
+}

@@ -1,0 +1,87 @@
+
+.navHeaderContainer{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #33cf71;
+    box-shadow: 0 0 10px 0 black !important;
+    top: 0px;
+    position:fixed !important;
+width: 100%;   
+   
+}
+.navbarContainer{
+    width: 75%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 0.8rem 1.5rem;
+    
+}
+.navbarContainer>ul{
+    display: flex;
+    justify-content: center;
+    flex-wrap: nowrap;
+    align-items: center;
+    list-style-type: none;
+    width: 75%;
+    
+}
+.leftNav{
+    width: 100%;
+    justify-content: flex-start;
+    display: flex;
+}
+.leftNav>li{
+    width: 13rem;
+    text-align: center;
+}
+.rightNav{
+    width: 25%;
+    text-align: right;
+    padding-right: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.leftNav>li>a{
+    color: black;
+    text-decoration: none;
+    padding: 1.2rem 1rem;
+    width: 100px;
+    font-size: x-large;
+    margin-left: 1.5rem;
+    transition: 0.3s;
+}
+.leftNav>li>a:hover{
+    color: rgb(255, 0, 89);
+    border-bottom: 2px solid black;
+}
+
+.navLogoContainer{
+    width: 9rem;
+    display: flex;
+    flex-wrap: wrap;
+}
+.navLogo{
+    margin: 0;
+    width: 9rem;
+    font-family: sans-serif;
+    font-style: italic;
+    font-size: xx-large;
+    color: white;
+    word-spacing: 0rem;
+    font-weight: 600;
+}
+@media screen and (min-width:444px) and (max-width:1204px) {
+.navLogoContainer{
+    margin-bottom: 1.5rem;
+}
+.leftNav>li>a:hover{
+    color: black;
+    border-bottom: none;
+}
+.leftNav>li>a{
+    padding: 0.6rem 1rem;
+    transition: 0.5s;
+}
+}

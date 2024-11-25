@@ -1,0 +1,14 @@
+.footer{
+    width: 100%;
+    background-color: rgb(83, 83, 83);
+    color: #a4cee2;
+    font-size: medium;
+    text-align: center;
+    padding: 1rem;
+    font-weight: 600;
+}
+@media screen and (min-width:890px) and (max-width:1310px) {
+    .footer{
+        padding: 0.5rem;
+    }
+}

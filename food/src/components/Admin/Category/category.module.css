@@ -1,0 +1,10 @@
+.categoryContainer{
+    width: 100%;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+
+}
+.catbody{
+    width: 100%;
+    padding-top: 60px;
+    display: flex;
+}

@@ -1,0 +1,470 @@
+.SubCatContent{
+    padding: 2rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.SubcategoryFormContainer{
+   width: 45%;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+    box-shadow: 0px 0px 26px -10px  black;
+}
+.SubcategoryTittle{
+    width: 100%;
+    font-size: x-large;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 1px solid #11638C;
+    padding: 0.5rem;
+    color: #11638C;
+    border-radius: 1.5rem;
+
+}
+.SubtableTittle{
+    width: 100%;
+    font-size: x-large;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 0.5rem 0rem;
+    color: black;
+    border-radius: 1.5rem;
+}
+.SubcategoryTableContainer{
+   width: 52%;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px solid black;
+    padding: 1.8rem;
+    box-shadow: 0px 0px 26px -10px  black;
+}
+.Subcategoryform{
+    width: 100%;
+    padding: 1rem;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    margin-top: 1rem;
+
+}
+.SubcategoryTable{
+    width: 100%;
+    padding:1rem 1rem 1rem 1rem;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    height: 335px;
+    margin-top: 1rem;
+overflow-y: scroll;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.SubCatlabel{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: x-large;
+}
+.SubCatInput{
+    display: inline-block;
+    width: 350px;
+    height: 1rem;
+    padding: 1rem;
+    color: #11638C;
+    font-size: large;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 1rem;
+
+}
+.SubCatInput:focus{
+    outline: none;
+}
+.SubCatSelect:focus{
+    outline: none;
+}
+.option{
+    color:#11638C;
+    background-color: lightblue;
+}
+.option1{
+    color:gray;
+    background-color: lightblue;
+}
+
+.SubCatSelect{
+    display: inline-block;
+    width: 350px;
+    padding: 0.4rem;
+    color: #11638C;
+    font-size: large;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+
+}
+
+input[type="file"]{
+    display: none;
+}
+.SubCatFile{
+    display: inline-block;
+    width: 350px;
+    font-family: sans-serif;
+    padding: 0.3rem 0.2rem 0.3rem 1rem;
+    font-size: 1.16rem;
+    font-weight: 500;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color:#11638C;
+
+}
+input[type="text"]::placeholder{
+    color: #11638C;
+}
+.SubCatbuttons{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table,.thead,th,td{
+    border: 2px solid  #11638C;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: large;
+}
+.table,.td,.th{
+    border-collapse: collapse;
+}
+.icondiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.table{
+width: 100%;
+}
+.SubcategoryTable{
+    font-size: large;
+    text-align: center;
+}
+.rowspan{
+    padding-bottom: 1rem ;
+}
+@media screen and (min-width:890px) and (max-width:1210px) {
+.SubcategoryTableContainer{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    padding: 0.5rem;
+
+}
+.SubcategoryFormContainer{
+    width: 95%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    height: fit-content;
+    margin: 0 auto;
+
+}
+.SubCatInput{
+    width: 500px;
+    margin-bottom: 0.5rem;
+}
+.SubCatSelect{
+    width: 500px;
+    margin-bottom: 0.5rem;
+}
+.SubCatFile{
+    width: 500px;
+}
+.SubtableTittle{
+    font-size: x-large;
+    padding: 0.2rem;
+}
+.SubcategoryTittle{
+    font-size: x-large;
+    padding: 0.2rem;
+}    
+.SubcategoryTable{
+    margin-top: 0.2rem;
+    height: 200px;
+}
+.Subcategoryform{
+    padding-top: 0.5rem;
+    margin-top: 0.2rem;
+    
+}
+.rowspan{
+    padding-bottom: 0.2rem ;
+}
+.SubCatFile{
+    margin-bottom: 0.7rem;
+}
+.SubCatlabel{
+    font-size: large;
+    margin-bottom: 0.2rem;
+}
+.SubCatbuttons{
+    width: 45%;
+}
+.SubCatContent{
+    width: 100%;
+    padding: 1rem;
+}
+}
+
+@media screen and (min-width:580px) and (max-width:890px) {
+.SubCatContent{
+    width: 100%;
+    padding: 1rem;
+    padding-top: 5rem;
+}
+.table,.thead,th,td{
+    font-size: medium;
+}
+.table{
+    width: 100%;
+}
+    .SubcategoryTableContainer{
+        width: 55%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+        padding:2rem 0.5rem;
+    
+    }
+    .SubcategoryFormContainer{
+        width: 42%;
+        margin-bottom: 2rem;
+        padding:2rem 0.5rem;
+        height: fit-content;
+        margin: 0 auto;
+    
+    }
+    .SubCatInput{
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 1rem 0.5rem;
+        font-size: medium;
+    }
+    .SubCatSelect{
+        width: 100%;
+        margin-bottom: 0.5rem;
+        font-size: medium;
+    }
+    .SubCatFile{
+        width: 100%;
+        font-size: medium;
+        padding: 0.5rem 0.5rem;
+
+    }
+    .SubtableTittle{
+        font-size: x-large;
+        padding: 0.5rem;
+    }
+    .SubcategoryTittle{
+        font-size: x-large;
+        padding: 0.5rem;
+    }    
+    .SubcategoryTable{
+        height: 260px;
+        margin-top: 1rem;
+        padding: 1rem 0rem;
+    }
+    .Subcategoryform{
+    padding: 1.5rem 0.8rem 0.8rem 0.8rem;
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .rowspan{
+        padding-bottom: 0.2rem ;
+    }
+    .SubCatFile{
+        margin-bottom: 0.7rem;
+    }
+    .SubCatlabel{
+        font-size: medium;
+        margin-bottom: 0.2rem;
+    }
+    .SubCatbuttons{
+        width: 100%;
+    }
+    }
+    @media screen and (min-width:285px) and (max-width:581px) {
+
+        .SubCatContent{
+            padding-top: 5rem;
+            margin-top: auto;
+        }
+        .SubcategoryTableContainer{
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 0.8rem;
+            padding: 0.9rem;
+        
+        }
+        .SubcategoryFormContainer{
+            width: 95%;
+            margin-bottom: 1rem;
+            padding: 0.5rem;
+            margin: 0 auto;
+        
+        }
+        .table,.thead,th,td{
+            font-size: small;
+        }
+        .table{
+            width: 100%;
+        }
+        .SubCatInput{
+            width: 100%;
+            margin-bottom: 0.2rem;
+            padding: 0.7rem 0.5rem;
+            font-size: small;
+
+        }
+        .SubCatSelect{
+            width: 100%;
+            padding: 0.2rem;
+            margin-bottom: 0.3rem;
+            font-size: small;
+        }
+        .SubCatFile{
+            width: 100%;
+            font-size: small;
+        }
+        .SubtableTittle{
+            font-size: medium;
+            padding: 0.1rem;
+        }
+        .SubcategoryTittle{
+            font-size: medium;
+            padding: 0.1rem;
+        }    
+        .SubcategoryTable{
+            height: 150px;
+            margin-top: 0.5rem;
+        }
+        .Subcategoryform{
+            padding-top: 0.5rem;
+            margin-top: 0.5rem;
+            padding-bottom: 0.2rem;
+        }
+        .rowspan{
+            padding-bottom: 0.1rem ;
+        }
+        .SubCatFile{
+            margin-bottom: 0.7rem;
+        }
+        .SubCatlabel{
+            font-size: medium;
+            margin-bottom: 0.2rem;
+        }
+        .SubCatbuttons{
+            width: 80%;
+            font-size: small;
+        }
+        .SubCatContent{
+            width: 100%;
+        }
+        }
+        @media screen and (min-width:0px) and (max-width:284px) {
+
+            .SubCatContent{
+                padding-top: 5rem;
+                margin-top: auto;
+            }
+            .SubcategoryTableContainer{
+                width: 100%;
+                margin: 0 auto;
+                margin-top: 0.4rem;
+                padding: 0.4rem;
+            
+            }
+            .SubcategoryFormContainer{
+                width: 100%;
+                margin-bottom: 0.5rem;
+                padding: 0.5rem;
+                margin: 0 auto;
+            
+            }
+            .table,.thead,th,td{
+                font-size: x-small;
+            }
+            .table{
+                width: 100%;
+            }
+            .SubCatInput{
+                width: 100%;
+                margin-bottom: 0.3rem;
+                padding: 0.3rem 0.2rem;
+                font-size: xx-small;
+    
+            }
+            .SubCatSelect{
+                width: 100%;
+                padding: 0.2rem;
+                margin-bottom: 0.3rem;
+                font-size: xx-small;
+            }
+            .SubCatFile{
+                padding: 0.2rem;
+                width: 100%;
+                font-size: xx-small;
+            }
+            .SubtableTittle{
+                font-size: small;
+                padding: 0.1rem;
+            }
+            .SubcategoryTittle{
+                font-size: small;
+                padding: 0.1rem;
+            }    
+            .SubcategoryTable{
+                margin-top: 0.5rem;
+                height: 250px;
+
+            }
+            .Subcategoryform{
+                padding-top: 0.3rem;
+                margin-top: 0.5rem;
+                padding-bottom: 0.2rem;
+            }
+            .rowspan{
+                padding-bottom: 0.1rem ;
+            }
+            .SubCatFile{
+                margin-bottom: 0.7rem;
+            }
+            .SubCatlabel{
+                font-size: small;
+                margin-bottom: 0.2rem;
+            }
+            .SubCatbuttons{
+                width: 100%;
+                font-size: small;
+            }
+            .SubCatContent{
+                width: 100%;
+            }
+            }
+            

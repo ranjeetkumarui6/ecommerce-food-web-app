@@ -1,0 +1,44 @@
+.cbutton{
+    color: #11638C;
+    text-decoration: none;
+    margin-top: 7%;
+    background-image: linear-gradient(to right,rgb(231, 231, 157),rgb(221, 117, 117));
+    padding: 0.3rem 1rem;
+    border-radius: 1rem;
+    /* border: 1px solid #11638C; */
+    width: 100px;
+    box-shadow: 0px 0px 12px -3px black;
+    font-size: x-large;
+    transition: 0.5s ease;
+}
+.cbutton:hover{
+background-image: linear-gradient(to left,lightblue,lightslategray,lightgray);
+color: #CEF4F2;
+}
+@media screen and (min-width:590px) and (max-width:889px) {
+.cbutton{
+font-size: medium;
+padding: 0.3rem 0.3rem;
+text-align: center;
+width: 74px;
+
+}
+}
+@media screen and (min-width:285px) and (max-width:589px) {
+.cbutton{
+    font-size: x-small;
+    padding: 0.3rem 0.3rem;
+    text-align: center;
+    width: 60px;
+
+}
+}
+@media screen and (min-width:0px) and (max-width:285px) {
+.cbutton{
+    font-size: xx-small;
+    padding: 0.1rem 0.1rem;
+    text-align: center;
+    width: 60px;
+
+}
+}

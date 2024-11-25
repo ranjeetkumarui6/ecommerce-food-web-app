@@ -1,0 +1,259 @@
+.ucategoryFormContainer{
+    width: 42.5%;
+     background-color: lightgray;
+     border-radius: 2rem;
+     border: 1px solid #11638C;
+     padding: 2.5rem 1.5rem 2.5rem 1.5rem;
+     position: absolute;
+     left: 2.8%;
+     top: 6%;
+     height: 461px !important;
+     box-shadow: 0px 0px 26px -10px  black;
+     overflow: hidden;
+
+ }
+ 
+ .ucategoryTittle{
+     width: 100%;
+     font-size: x-large;
+     font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     font-weight: 500;
+     border: 1px solid #11638C;
+     padding: 1rem;
+     color: #11638C;
+     border-radius: 1.5rem;
+ 
+ }
+ .ucategoryform{
+    width: 100%;
+    padding: 4rem 2rem 3.3rem 2rem;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    height: fit-content;
+    margin-top: 2rem;
+}
+.uCatlabel{
+    display: inline-block;
+    margin-bottom: 1rem;
+    width: 100%;
+    font-size: xx-large;
+}
+.uCatInput{
+    display: inline-block;
+    width: 330px;
+    height: 1rem;
+    padding: 1.5rem;
+    color: #11638C;
+    font-size: x-large;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+.uCatInput:focus{
+    outline: none;
+}
+
+input[type="file"]{
+    display: none;
+}
+.uCatFile{
+    display: inline-block;
+    width: 300px;
+    font-family: sans-serif;
+    padding: 0.3rem 0.2rem 0.3rem 1rem;
+    font-size: 1.16rem;
+    font-weight: 500;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color: rgb(112, 112, 112);
+
+}
+.uCatbuttons{
+    padding-top: 1rem;
+    width: 75%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+@media screen and (min-width:890px) and (max-width:1310px) {
+    .ucategoryFormContainer{
+        width: 92%;
+        margin-bottom: 1rem;
+        height: 242px !important;
+        top: 3%;
+        left: 2%;
+        padding: 0.5rem;
+        margin: 0 auto;
+        margin-left: 2.1%;
+    
+    }
+    .uCatInput{
+        width: 500px;
+        margin-bottom: 0.5rem;
+        padding: 1rem !important;
+    }
+    .uCatFile{
+        width: 500px;
+    }
+    .ucategoryTittle{
+        font-size: x-large;
+        padding: 0.2rem;
+    }   
+    .ucategoryform{
+        padding-top: 0.5rem;
+        height: 170px;
+        margin-top: 0.2rem;
+        
+    }
+    .uCatFile{
+        margin-bottom: 0.7rem;
+    }
+    .uCatlabel{
+        font-size: 1.7rem;
+        margin-bottom: 0.5rem;
+    }
+    .uCatbuttons{
+        width: 45%;
+    }
+    
+}
+@media screen and (min-width:590px) and (max-width:889px) {
+    .ucategoryFormContainer{
+        width: 38.5%;
+        margin-bottom: 2rem;
+        top: 18%;
+        left: 4.5%;
+        padding:2rem 0.5rem;
+        height: 385px !important;
+        margin: 0 auto;
+    
+    }
+    .uCatInput{
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 1rem 0.5rem;
+        font-size: large;
+    }
+    .uCatFile{
+        width: 100%;
+        font-size: small;
+        padding: 0.5rem 0.5rem;
+
+    }
+    .ucategoryTittle{
+        font-size: x-large;
+        padding: 0.5rem;
+    }
+    .ucategoryform{
+        padding: 4rem 0.8rem 0.8rem 0.8rem;
+            width: 100%;
+            height: 200px;
+            margin-top: 2rem;
+        }
+        .uCatFile{
+            margin-bottom: 0.7rem;
+        }
+        .uCatlabel{
+            font-size: x-large;
+            margin-bottom: 1rem;
+        }
+        .uCatbuttons{
+            width: 90%;
+        }
+}
+@media screen and (min-width:285px) and (max-width:589px) {
+    .ucategoryFormContainer{
+        width: 95%;
+        margin-bottom: 1rem;
+        padding: 0.5rem 0.5rem 0.5rem 0.7rem;
+        margin: 0 auto;
+        margin-left: 0.2rem;
+        height: 220px !important;
+        top: 12.5%;
+        left: 2%;
+    }
+    .uCatInput{
+        width: 100%;
+        margin-bottom: 0.3rem;
+        padding: 0.8rem 0.5rem;
+        font-size: small;
+
+    }
+    .uCatFile{
+        width: 100%;
+        font-size: small;
+    }
+    .ucategoryTittle{
+        font-size: medium;
+        padding: 0.1rem;
+    }
+    .ucategoryform{
+        padding-top: 1rem;
+        margin-top: 1rem;
+        padding-bottom: 1rem;
+    }
+    .uCatFile{
+        margin-bottom: 0.7rem;
+    }
+    .uCatlabel{
+        font-size: large;
+        margin-bottom: 0.7rem;
+    }
+    .uCatbuttons{
+        width: 80%;
+        font-size: small;
+    }
+}
+@media screen and (min-width:0px) and (max-width:284px) {
+    .ucategoryFormContainer{
+        width: 90%;
+        margin-bottom: 0.5rem;
+        padding: 0.7rem;
+        margin: 0 auto;
+        top: 15%;
+        left: 5%;
+        height: auto !important;
+    
+    }
+    .ucategoryform{
+        padding-top: 1.6rem;
+        margin-top: 1rem;
+        padding-bottom: 0.2rem;
+    }
+    .uCatInput{
+        width: 100%;
+        margin-bottom: 0.3rem;
+        padding: 0.4rem 0.2rem;
+        font-size: small;
+
+    }
+    .uCatFile{
+        width: 100%;
+        font-size: xx-small;
+    }
+    .ucategoryTittle{
+        font-size: small;
+        padding: 0.1rem;
+    }
+
+    .uCatFile{
+        margin-bottom: 0.7rem;
+    }
+    .uCatlabel{
+        font-size: small;
+        margin-bottom: 0.2rem;
+    }
+    .uCatbuttons{
+        width: 100%;
+        font-size: small;
+    }
+}

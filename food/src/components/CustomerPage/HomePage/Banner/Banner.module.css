@@ -1,0 +1,131 @@
+.bannerContainer{
+    width: 100%;
+    margin-top: 80px;
+    background-image: url('../../../../assets/banner8.webp');
+    background-repeat: no-repeat;
+    background-size:cover;
+    border-radius: 20px;
+    padding: 5% 0;
+}
+
+::placeholder{
+    color: #33cf71;
+}
+.aboutFood{
+    font-size: 40px;
+    text-shadow: 3px 3px 2px rgb(76, 72, 72);
+    width: 50%;
+    margin: auto;
+    text-align: center;
+
+}
+
+.inputFood{
+    width: 90%;
+    background-color: transparent;
+    font-size: x-large;
+    border-radius: 0rem 1rem 1rem 0rem;
+    outline: none;
+    border-top: 2px solid #33cf71;
+    border-bottom: 2px solid #33cf71;
+    border-right:2px solid #33cf71 ;
+    border-left: none;
+    padding:0.5rem 1rem 0.5rem 0.1rem;
+}
+.inputFood:focus{
+    outline: none;
+}
+
+.inputFood::placeholder{
+    color: black;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-style: italic;
+    font-size: x-large;
+    font-weight: 200;
+}
+.inputFoodCon{
+    padding: 2rem 0rem;
+    width: 50%;
+    margin:auto;
+    align-items: center;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+}
+.searchicon{
+    height: auto;
+    align-items: center;
+    padding-top: 0.6rem;
+    
+    font-size: x-large;
+}
+.inicon{
+    border-top: 2px solid #33cf71;
+    border-bottom: 2px solid #33cf71;
+    border-right:none ;
+    border-left: 2px solid #33cf71 ;
+    border-radius: 1rem 0rem 0rem 1rem;
+    height: auto;
+    display: inline-block;
+    padding: 0rem 0.4rem 0.4rem 0.4rem;
+    margin-top: 0rem;
+    align-items: center;
+}
+@media screen and (max-width:576px) {
+.aboutFood{
+    width: 90%;
+    font-size: large;
+}
+.inputFood{
+    width: 100%;
+    font-size: large;
+}
+.inputFoodCon{
+    width: 70%;
+}
+.inputFood::placeholder{
+    font-size: large;
+}
+.inicon{
+    padding: 0rem 0.4rem 0.3rem 0.4rem;
+
+}
+.inputFood{
+padding:0.56rem 1rem 0.5rem 0.1rem;
+}
+.searchicon{
+    font-size: large;
+    padding-top: 0.7rem;
+
+}
+.bannerContainer{
+    height: 100vh;
+}
+}
+@media screen and (min-width:577px) and (max-width:1000px) {
+    .aboutFood{
+        width: 80%;
+        font-size: x-large;
+    }
+    .inputFood{
+        width: 100%;
+        font-size: large;
+    }
+    .inputFoodCon{
+        width: 70%;
+    }
+    .inputFood::placeholder{
+        font-size: large;
+    }
+    .inputFood{
+        padding:0.56rem 1rem 0.5rem 0.1rem;
+        }
+.inicon{
+    padding: 0rem 0.4rem 0.4rem 0.4rem;
+
+}
+.searchicon{
+    font-size: large;
+}
+
+    }

@@ -1,0 +1,43 @@
+.Abutton{
+        color: #11638C;
+        text-decoration: none;
+        background-image: linear-gradient(to right,lightblue,lightgray);
+        padding: 0.3rem 1rem;
+        border-radius: 1rem;
+        /* border: 1px solid #11638C; */
+        width: 100px;
+        box-shadow: 0px 0px 12px -3px black;
+        font-size: large;
+        transition: 0.3s ease;
+}
+.Abutton:hover{
+    background-image: linear-gradient(to left,lightblue,lightslategray,lightgray);
+    color: #CEF4F2;
+}
+@media screen and (min-width:590px) and (max-width:889px) {
+.Abutton{
+    font-size: medium;
+    padding: 0.3rem 0.3rem;
+    text-align: center;
+    width: 74px;
+
+}
+}
+@media screen and (min-width:285px) and (max-width:590px) {
+    .Abutton{
+        font-size: x-small;
+        padding: 0.3rem 0.3rem;
+        text-align: center;
+        width: 60px;
+    
+    }
+}
+@media screen and (min-width:0px) and (max-width:285px) {
+    .Abutton{
+        font-size: xx-small;
+        padding: 0.1rem 0.1rem;
+        text-align: center;
+        width: 60px;
+    
+    }
+}

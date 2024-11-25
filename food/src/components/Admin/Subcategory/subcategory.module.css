@@ -1,0 +1,11 @@
+.subCategoryContainer{
+    width: 100%;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+
+}
+.subcatbody{
+    display: flex;
+    width: 100%;
+    padding-top: 60px;
+
+}

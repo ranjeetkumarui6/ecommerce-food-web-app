@@ -1,0 +1,423 @@
+.CatContent{
+    display: flex;
+    position: relative;
+    padding: 2rem;
+    flex-wrap: wrap;
+    height: 100%;
+    min-width: 300px;
+    justify-content: space-between;
+}
+.categoryFormContainer{
+   width: 45%;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 26px -10px  black;
+}
+.categoryTittle{
+    width: 100%;
+    font-size: x-large;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 1px solid #11638C;
+    padding: 1rem;
+    color: #11638C;
+    border-radius: 1.5rem;
+
+}
+.tableTittle{
+    width: 100%;
+    font-size: x-large;
+    font-family:  'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 500;
+    border: 1px solid black;
+    padding: 1rem 0rem;
+    color: black;
+    border-radius: 1.5rem;
+}
+.categoryTableContainer{
+   width: 52%;
+    background-color: transparent;
+    border-radius: 2rem;
+    border: 1px solid black;
+    padding: 1.5rem;
+    box-shadow: 0px 0px 26px -10px  black;
+}
+.categoryform{
+    width: 100%;
+    padding: 2rem;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    margin-top: 3rem;
+}
+.categoryTable{
+    width: 100%;
+    padding:1rem 1rem 1rem 1rem;
+    height: 290px;
+    border-radius: 2rem;
+    border: 1px solid #11638C;
+    margin-top: 3rem;
+overflow-y: scroll;
+
+}
+::-webkit-scrollbar{
+    display: none;
+}
+
+.Catlabel{
+    display: inline-block;
+    margin-bottom: 0.5rem;
+    width: 100%;
+    font-size: x-large;
+}
+.CatInput{
+    display: inline-block;
+    width: 350px;
+    height: 1rem;
+    padding: 1rem;
+    color: #11638C;
+    font-size: large;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+
+}
+.CatInput:focus{
+    outline: none;
+}
+
+input[type="file"]{
+    display: none;
+}
+.CatFile{
+    display: inline-block;
+    width: 350px;
+    font-family: sans-serif;
+    padding: 0.3rem 0.2rem 0.3rem 1rem;
+    font-size: 1.16rem;
+    font-weight: 500;
+    background-image: linear-gradient(to right,lightblue,lightgray);
+    box-shadow: 0px 0px 4px 0px #11638C;
+    border: none;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    color:#11638C;
+
+}
+.Catbuttons{
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.table,.thead,th,td{
+    border: 2px solid  #11638C;
+    text-align: center;
+    padding: 0.5rem;
+    font-size: large;
+}
+.table,.td,.th{
+    border-collapse: collapse;
+}
+.icondiv{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+}
+.table{
+width: 100%;
+/* height: 50vh; */
+}
+.categoryTable{
+    font-size: large;
+    text-align: center;
+}
+.rowspan{
+    padding-bottom: 1rem ;
+}
+@media screen and (min-width:890px) and (max-width:1310px) {
+.categoryTableContainer{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 0.8rem;
+    padding: 0.5rem;
+
+}
+.categoryFormContainer{
+    width: 95%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    margin: 0 auto;
+
+}
+.CatInput{
+    width: 500px;
+    margin-bottom: 0.5rem;
+}
+.CatFile{
+    width: 500px;
+}
+.tableTittle{
+    font-size: large;
+    padding: 0.1rem;
+}
+.categoryTittle{
+    font-size: large;
+    padding: 0.1rem;
+}    
+.categoryTable{
+    height: 30vh;
+    margin-top: 0.2rem;
+}
+.categoryform{
+    padding-top: 0.5rem;
+    margin-top: 0.2rem;
+    height: 30vh;
+}
+.rowspan{
+    padding-bottom: 0.2rem ;
+}
+.CatFile{
+    margin-bottom: 0.7rem;
+}
+.Catlabel{
+    font-size: large;
+    margin-bottom: 0.2rem;
+}
+.Catbuttons{
+    width: 45%;
+}
+.CatContent{
+    width: 100%;
+    padding: 1rem;
+}
+}
+
+@media screen and (min-width:590px) and (max-width:890px) {
+.CatContent{
+    width: 100%;
+    padding-top: 5.5rem;
+}
+.table,.thead,th,td{
+    font-size: medium;
+}
+.table{
+    width: 100%;
+}
+    .categoryTableContainer{
+        width: 55%;
+        margin: 0 auto;
+        padding:2rem 0.5rem;
+
+    
+    }
+    .categoryFormContainer{
+        width: 42%;
+        padding:2rem 0.5rem;
+        height: fit-content;
+        margin: 0 auto;
+    
+    }
+    .CatInput{
+        width: 100%;
+        margin-bottom: 0.5rem;
+        padding: 1rem 0.5rem;
+        font-size: small;
+    }
+    .CatFile{
+        width: 100%;
+        font-size: small;
+        padding: 0.5rem 0.5rem;
+
+    }
+    .tableTittle{
+        font-size: x-large;
+        padding: 0.5rem;
+    }
+    .categoryTittle{
+        font-size: x-large;
+        padding: 0.5rem;
+    }    
+    .categoryTable{
+        margin-top: 1rem;
+        padding: 1rem 0rem;
+    height: 250px;
+
+    }
+    .categoryform{
+    padding: 2rem 0.8rem 0.8rem 0.8rem;
+    height: 250px;
+
+        width: 100%;
+        margin-top: 1rem;
+    }
+    .rowspan{
+        padding-bottom: 0.2rem ;
+    }
+    .CatFile{
+        margin-bottom: 0.7rem;
+    }
+    .Catlabel{
+        font-size: medium;
+        margin-bottom: 0.2rem;
+    }
+    .Catbuttons{
+        width: 90%;
+    }
+
+    }
+    @media screen and (min-width:285px) and (max-width:590px) {
+
+        .CatContent{
+            margin-top: auto;
+    padding: 4rem 0 0 0;
+
+        }
+        .categoryTableContainer{
+            width: 95%;
+            margin: 0 auto;
+            margin-top: 0.8rem;
+            padding: 0.9rem;
+        
+        }
+        .categoryFormContainer{
+            width: 95%;
+            margin-bottom: 1.5rem;
+            padding: 0.5rem;
+            margin: 0 auto;
+        
+        }
+        .table,.thead,th,td{
+            font-size: small;
+        }
+        .table{
+            width: 100%;
+        }
+        .CatInput{
+            width: 100%;
+            margin-bottom: 0.3rem;
+            padding: 0.8rem 0.5rem;
+            font-size: small;
+
+        }
+        .CatFile{
+            width: 100%;
+            font-size: small;
+        }
+        .tableTittle{
+            font-size: medium;
+            padding: 0.1rem;
+        }
+        .categoryTittle{
+            font-size: medium;
+            padding: 0.1rem;
+        }    
+        .categoryTable{
+            margin-top: 0.5rem;
+            height: 160px;
+
+        }
+        .categoryform{
+            padding-top: 0.5rem;
+            margin-top: 0.5rem;
+            height: 165px;
+            padding-bottom: 0.2rem;
+        }
+        .rowspan{
+            padding-bottom: 0.1rem ;
+        }
+        .CatFile{
+            margin-bottom: 0.7rem;
+        }
+        .Catlabel{
+            font-size: medium;
+            margin-bottom: 0.2rem;
+        }
+        .Catbuttons{
+            width: 80%;
+            font-size: small;
+        }
+       
+        }
+        @media screen and (min-width:0px) and (max-width:285px) {
+
+            .CatContent{
+                margin-top: auto;
+                padding: 4rem 0 0 0;
+
+            }
+            .categoryTableContainer{
+                width: 90%;
+                margin: 0.5rem auto;
+                padding: 0.4rem;
+            
+            }
+            .categoryFormContainer{
+                width: 90%;
+                margin-bottom: 0.5rem;
+                padding: 0.5rem;
+                margin-top: 40vh;
+                margin: 0 auto;
+            
+            }
+            .table,.thead,th,td{
+                font-size: x-small;
+            }
+            .table{
+                width: 100%;
+            }
+            .CatInput{
+                width: 100%;
+                margin-bottom: 0.3rem;
+                padding: 0.4rem 0.2rem;
+                font-size: xx-small;
+    
+            }
+            .CatFile{
+                width: 100%;
+                font-size: xx-small;
+            }
+            .tableTittle{
+                font-size: small;
+                padding: 0.1rem;
+            }
+            .categoryTittle{
+                font-size: small;
+                padding: 0.1rem;
+            }    
+            .categoryTable{
+                margin: 0.5rem 0;
+                height: 200px;
+            }
+            .categoryform{
+                padding-top: 0.3rem;
+                margin-top: 0.5rem;
+                padding-bottom: 0.2rem;
+            }
+            .rowspan{
+                padding-bottom: 0.1rem ;
+            }
+            .CatFile{
+                margin-bottom: 0.7rem;
+            }
+            .Catlabel{
+                font-size: small;
+                margin-bottom: 0.2rem;
+            }
+            .Catbuttons{
+                width: 100%;
+                font-size: small;
+            }
+            
+            }
+            
